@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84469B811F3AFDFE007A0C6B /* 视频（750X1334）.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84469B801F3AFDFE007A0C6B /* 视频（750X1334）.mp4 */; };
 		84BEB7141F2585B20014039F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB7131F2585B20014039F /* main.m */; };
 		84BEB7171F2585B20014039F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB7161F2585B20014039F /* AppDelegate.m */; };
 		84BEB71A1F2585B20014039F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB7191F2585B20014039F /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84469B801F3AFDFE007A0C6B /* 视频（750X1334）.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "视频（750X1334）.mp4"; sourceTree = "<group>"; };
 		84BEB70F1F2585B20014039F /* SALogViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SALogViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BEB7131F2585B20014039F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BEB7151F2585B20014039F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				84BEB72F1F258D2B0014039F /* register_guide_video.mp4 */,
+				84469B801F3AFDFE007A0C6B /* 视频（750X1334）.mp4 */,
 				84BEB7151F2585B20014039F /* AppDelegate.h */,
 				84BEB7161F2585B20014039F /* AppDelegate.m */,
 				84BEB7291F25860D0014039F /* SALogMoviceView.h */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BEB7221F2585B20014039F /* LaunchScreen.storyboard in Resources */,
+				84469B811F3AFDFE007A0C6B /* 视频（750X1334）.mp4 in Resources */,
 				84BEB71F1F2585B20014039F /* Assets.xcassets in Resources */,
 				84BEB71D1F2585B20014039F /* Main.storyboard in Resources */,
 				84BEB7301F258D2B0014039F /* register_guide_video.mp4 in Resources */,

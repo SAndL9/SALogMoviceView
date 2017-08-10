@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "SALogMoviceView.h"
-#import "SAViewController.h"
+
 
 @interface ViewController ()
 
@@ -39,7 +39,7 @@
     
     [self.view insertSubview:self.logMoviceView atIndex:0];
     
-    self.logMoviceView.movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"register_guide_video" ofType:@"mp4"]];
+    self.logMoviceView.movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"视频（750X1334）" ofType:@"mp4"]];
 //    self.logMoviceView.movieURL = [NSURL URLWithString:@"http://192.168.1.161/The New Look of OS X Yosemite.mp4"];
 }
 
@@ -99,9 +99,7 @@
 
 - (void)enterMainAction:(UIButton *)btn {
     
-//    exit(2);
-    SAViewController *VC = [[SAViewController alloc]init];
-    [self presentViewController:VC animated:YES completion:nil];
+
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
